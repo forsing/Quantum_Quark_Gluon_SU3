@@ -22,9 +22,9 @@ np.random.seed(39)
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4720_k91.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4720_k91_loto_2982.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4720_k91_loto_plus_1738.csv"),
+    Path("/data/loto7_4720_k91.csv"),
+    Path("/data/loto7_4720_k91_loto_2982.csv"),
+    Path("/data/loto7_4720_k91_loto_plus_1738.csv"),
 )
 
 
@@ -1074,20 +1074,20 @@ CSV: loto7_4720_k91.csv
 Validacija NLL: 17.076520 | reg: 0.001
 Test NLL: 17.172954
 Pretraga NEXT: iscrpna, najvise cetiri uzastopna broja.
-NEXT: [9, 13, 17, 20, 25, 36, 38]
+NEXT: [9, x, 17, y, 25, z, 38]
 
 CSV: loto7_4720_k91_loto_2982.csv
 Validacija NLL: 17.021851 | reg: 0.001
 Test NLL: 17.074312
 Pretraga NEXT: iscrpna, najvise cetiri uzastopna broja.
-NEXT: [1, 3, 11, 22, 23, 32, 38]
+NEXT: [1, x, 11, y, 23, z, 38]
 
 CSV: loto7_4720_k91_loto_plus_1738.csv
 Nastavak optimizacije: trening reg=0.01; gradijent=0.00221162.
 Validacija NLL: 17.024549 | reg: 0.01
 Test NLL: 17.164463
 Pretraga NEXT: iscrpna, najvise cetiri uzastopna broja.
-NEXT: [11, 15, 19, 21, 25, 28, 33]
+NEXT: [11, x, 19, y, 25, z, 33]
 """
 
 
